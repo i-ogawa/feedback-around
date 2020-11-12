@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "lucaslpsan.vuetify-pug-snippet",
+    "sdras.vue-vscode-snippets",
+    "dariofuzinato.vue-peek",
+    "octref.vetur",
+    "shardulm94.trailing-spaces",
+    "syler.sass-indented",
+    "esbenp.prettier-vscode",
+    "eg2.vscode-npm-script",
+    "pkief.material-icon-theme",
+    "mhutchie.git-graph",
+    "abierbaum.vscode-file-peek",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig"
+  ]
+}

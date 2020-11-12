@@ -1,0 +1,239 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "エンジニア",
+      "ranks": [
+        {
+          "id": "1",
+          "profession_id": "1",
+          "code": "E",
+          "name": "Engineer",
+          "description": "エンジニアランクの説明",
+          "previous_rank_id": "0",
+          "sort_order": 1,
+          "created_at": "2020-09-21T10:55:28.563Z",
+          "updated_at": "2020-09-21T10:55:28.563Z",
+          "deleted_at": "2020-09-21T10:55:28.563Z"
+        },
+        {
+          "id": "1",
+          "profession": {
+            "id": "1",
+            "name": "エンジニア",
+            "created_at": "2020-09-17T02:20:15.589Z",
+            "updated_at": "2020-09-17T02:20:15.589Z",
+            "deleted_at": "2020-09-17T02:20:15.589Z"
+          },
+          "code": "E",
+          "name": "Engineer",
+          "decription": "エンジニア",
+          "previous_rank_id": "string",
+          "previous_rank_code": "NC",
+          "previous_rank_name": "NewCommer",
+          "sort_order": 1,
+          "created_at": "2020-09-16T07:47:32.669Z",
+          "updated_at": "2020-09-16T07:47:32.669Z",
+          "deleted_at": "2020-09-16T07:47:32.669Z"
+        },
+        {
+          "id": "string",
+          "profession": {
+            "id": "1",
+            "name": "エンジニア",
+            "created_at": "2020-09-17T02:20:15.589Z",
+            "updated_at": "2020-09-17T02:20:15.589Z",
+            "deleted_at": "2020-09-17T02:20:15.589Z"
+          },
+          "code": "LE",
+          "name": "Lead Engineer",
+          "decription": "リードエンジニア",
+          "previous_rank_id": "1",
+          "previous_rank_code": "E",
+          "previous_rank_name": "Engineer",
+          "sort_order": 2,
+          "created_at": "2020-09-16T07:47:32.669Z",
+          "updated_at": "2020-09-16T07:47:32.669Z",
+          "deleted_at": "2020-09-16T07:47:32.669Z"
+        },
+        {
+          "id": "string",
+          "profession": {
+            "id": "1",
+            "name": "エンジニア",
+            "created_at": "2020-09-17T02:20:15.589Z",
+            "updated_at": "2020-09-17T02:20:15.589Z",
+            "deleted_at": "2020-09-17T02:20:15.589Z"
+          },
+          "code": "SP",
+          "name": "Specialist",
+          "decription": "スペシャリスト",
+          "previous_rank_id": "2",
+          "previous_rank_code": "LE",
+          "previous_rank_name": "Lead Engineer",
+          "sort_order": 3,
+          "created_at": "2020-09-16T07:47:32.669Z",
+          "updated_at": "2020-09-16T07:47:32.669Z",
+          "deleted_at": "2020-09-16T07:47:32.669Z"
+        },
+        {
+          "id": "string",
+          "profession": {
+            "id": "1",
+            "name": "エンジニア",
+            "created_at": "2020-09-17T02:20:15.589Z",
+            "updated_at": "2020-09-17T02:20:15.589Z",
+            "deleted_at": "2020-09-17T02:20:15.589Z"
+          },
+          "code": "SSP",
+          "name": "Senior Specialist",
+          "decription": "シニアスペシャリスト",
+          "previous_rank_id": "3",
+          "previous_rank_code": "SP",
+          "previous_rank_name": "Specialist",
+          "sort_order": 4,
+          "created_at": "2020-09-16T07:47:32.669Z",
+          "updated_at": "2020-09-16T07:47:32.669Z",
+          "deleted_at": "2020-09-16T07:47:32.669Z"
+        },
+        {
+          "id": "string",
+          "profession": {
+            "id": "1",
+            "name": "エンジニア",
+            "created_at": "2020-09-17T02:20:15.589Z",
+            "updated_at": "2020-09-17T02:20:15.589Z",
+            "deleted_at": "2020-09-17T02:20:15.589Z"
+          },
+          "code": "EXPT",
+          "name": "Expert",
+          "decription": "エキスパート",
+          "previous_rank_id": "4",
+          "previous_rank_code": "SSP",
+          "previous_rank_name": "Senior Specialist",
+          "sort_order": 5,
+          "created_at": "2020-09-16T07:47:32.669Z",
+          "updated_at": "2020-09-16T07:47:32.669Z",
+          "deleted_at": "2020-09-16T07:47:32.669Z"
+        }
+      ],
+      "created_at": "2020-09-21T10:55:28.563Z",
+      "updated_at": "2020-09-21T10:55:28.563Z",
+      "deleted_at": "2020-09-21T10:55:28.563Z"
+    },
+    {
+      "id": "2",
+      "name": "マネージメント",
+      "ranks": [
+        {
+          "id": "1",
+          "profession": {
+            "id": "2",
+            "name": "マネージメント",
+            "created_at": "2020-09-17T02:20:15.589Z",
+            "updated_at": "2020-09-17T02:20:15.589Z",
+            "deleted_at": "2020-09-17T02:20:15.589Z"
+          },
+          "code": "A",
+          "name": "Analyst",
+          "decription": "アナリスト",
+          "previous_rank_id": "string",
+          "previous_rank_code": "NC",
+          "previous_rank_name": "NewCommer",
+          "sort_order": 1,
+          "created_at": "2020-09-16T07:47:32.669Z",
+          "updated_at": "2020-09-16T07:47:32.669Z",
+          "deleted_at": "2020-09-16T07:47:32.669Z"
+        },
+        {
+          "id": "2",
+          "profession": {
+            "id": "2",
+            "name": "マネージメント",
+            "created_at": "2020-09-17T02:20:15.589Z",
+            "updated_at": "2020-09-17T02:20:15.589Z",
+            "deleted_at": "2020-09-17T02:20:15.589Z"
+          },
+          "code": "C",
+          "name": "Consultant",
+          "decription": "コンサルタント",
+          "previous_rank_id": "1",
+          "previous_rank_code": "A",
+          "previous_rank_name": "Analyst",
+          "sort_order": 2,
+          "created_at": "2020-09-16T07:47:32.669Z",
+          "updated_at": "2020-09-16T07:47:32.669Z",
+          "deleted_at": "2020-09-16T07:47:32.669Z"
+        },
+        {
+          "id": "3",
+          "profession": {
+            "id": "2",
+            "name": "マネージメント",
+            "created_at": "2020-09-17T02:20:15.589Z",
+            "updated_at": "2020-09-17T02:20:15.589Z",
+            "deleted_at": "2020-09-17T02:20:15.589Z"
+          },
+          "code": "M",
+          "name": "Manager",
+          "decription": "マネージャ",
+          "previous_rank_id": "2",
+          "previous_rank_code": "C",
+          "previous_rank_name": "Consultant",
+          "sort_order": 3,
+          "created_at": "2020-09-16T07:47:32.669Z",
+          "updated_at": "2020-09-16T07:47:32.669Z",
+          "deleted_at": "2020-09-16T07:47:32.669Z"
+        },
+        {
+          "id": "4",
+          "profession": {
+            "id": "2",
+            "name": "マネージメント",
+            "created_at": "2020-09-17T02:20:15.589Z",
+            "updated_at": "2020-09-17T02:20:15.589Z",
+            "deleted_at": "2020-09-17T02:20:15.589Z"
+          },
+          "code": "EXM",
+          "name": "Executive Manager",
+          "decription": "エグゼクティブマネージャ",
+          "previous_rank_id": "3",
+          "previous_rank_code": "M",
+          "previous_rank_name": "Manager",
+          "sort_order": 4,
+          "created_at": "2020-09-16T07:47:32.669Z",
+          "updated_at": "2020-09-16T07:47:32.669Z",
+          "deleted_at": "2020-09-16T07:47:32.669Z"
+        },
+        {
+          "id": "5",
+          "profession": {
+            "id": "2",
+            "name": "マネージメント",
+            "created_at": "2020-09-17T02:20:15.589Z",
+            "updated_at": "2020-09-17T02:20:15.589Z",
+            "deleted_at": "2020-09-17T02:20:15.589Z"
+          },
+          "code": "D",
+          "name": "Director",
+          "decription": "ディレクター",
+          "previous_rank_id": "4",
+          "previous_rank_code": "EXM",
+          "previous_rank_name": "Executive Manager",
+          "sort_order": 5,
+          "created_at": "2020-09-16T07:47:32.669Z",
+          "updated_at": "2020-09-16T07:47:32.669Z",
+          "deleted_at": "2020-09-16T07:47:32.669Z"
+        }
+      ],
+      "created_at": "2020-09-21T10:55:28.563Z",
+      "updated_at": "2020-09-21T10:55:28.563Z",
+      "deleted_at": "2020-09-21T10:55:28.563Z"
+    }
+  ],
+  "page": "string",
+  "limit": "string",
+  "offset": "string",
+  "total_page": "string",
+  "total_count": "string"
+}

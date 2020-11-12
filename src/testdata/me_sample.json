@@ -1,0 +1,51 @@
+{
+  "id": "2",
+  "code": "2",
+  "name": "テスト太郎",
+  "name_index": "てすとたろう",
+  "mail_address": "testtaro@testtesttest.com",
+  "is_admin": true,
+  "avatar_url": "http://placeimg.com/451/451/people",
+  "rank_id": "1",
+  "rank": {
+    "id": "1",
+    "profession_id": "1",
+    "profession": {
+      "id": "1",
+      "name": "エンジニア",
+      "ranks": [
+        {
+          "id": "1",
+          "profession_id": "1",
+          "code": "E",
+          "name": "Engineer",
+          "description": "エンジニアランクの説明",
+          "previous_rank_id": "0",
+          "previous_rank_code": "NC",
+          "previous_rank_name": "New Comer",
+          "sort_order": 1,
+          "created_at": "2020-09-26T07:39:53.637Z",
+          "updated_at": "2020-09-26T07:39:53.637Z",
+          "deleted_at": "2020-09-26T07:39:53.637Z"
+        }
+      ],
+      "created_at": "2020-09-26T07:39:53.637Z",
+      "updated_at": "2020-09-26T07:39:53.637Z",
+      "deleted_at": "2020-09-26T07:39:53.637Z"
+    },
+    "code": "string",
+    "name": "string",
+    "description": "string",
+    "previous_rank_id": "string",
+    "previous_rank_code": "string",
+    "previous_rank_name": "string",
+    "sort_order": 0,
+    "created_at": "2020-09-26T07:39:53.637Z",
+    "updated_at": "2020-09-26T07:39:53.637Z",
+    "deleted_at": "2020-09-26T07:39:53.637Z"
+  },
+  "hired_at": "2020-09-26T07:39:53.637Z",
+  "retired_at": "2020-09-26T07:39:53.637Z",
+  "created_at": "2020-09-26T07:39:53.637Z",
+  "updated_at": "2020-09-26T07:39:53.642Z"
+}

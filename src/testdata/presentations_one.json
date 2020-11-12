@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "2020年期末",
+      "items": [
+        {
+          "id": "string",
+          "presentation_id": "string",
+          "user_id": "string",
+          "user": {
+            "id": "string",
+            "code": "string",
+            "name": "string",
+            "name_index": "string",
+            "mail_address": "string",
+            "is_admin": true,
+            "avatar_url": "string",
+            "rank_id": "string",
+            "rank": {
+              "id": "string",
+              "profession_id": "string",
+              "code": "string",
+              "name": "string",
+              "description": "string",
+              "previous_rank_id": "string",
+              "sort_order": 0,
+              "created_at": "2020-09-17T15:04:59.008Z",
+              "updated_at": "2020-09-17T15:04:59.008Z",
+              "deleted_at": "2020-09-17T15:04:59.008Z"
+            },
+            "hired_at": "2020-09-17T15:04:59.008Z",
+            "retired_at": "2020-09-17T15:04:59.008Z",
+            "created_at": "2020-09-17T15:04:59.008Z",
+            "updated_at": "2020-09-17T15:04:59.008Z"
+          },
+          "primary_evaluator_id": "string",
+          "feedback_done": true,
+          "evaluation_done": true,
+          "secondary_evaluator_id": "string",
+          "want_rank_id": "string",
+          "presenting_on": "2020-09-17T15:04:59.008Z",
+          "created_at": "2020-09-17T15:04:59.008Z",
+          "updated_at": "2020-09-17T15:04:59.008Z"
+        }
+      ],
+      "feedback_entering_on": "2020-12-17T15:04:59.008Z",
+      "feedback_publishing_on": "2020-12-30T15:04:59.008Z",
+      "created_at": "2020-09-17T15:04:59.008Z",
+      "updated_at": "2020-09-17T15:04:59.008Z"
+    }
+  ],
+  "page": "string",
+  "limit": "string",
+  "offset": "string",
+  "total_page": "string",
+  "total_count": "string"
+}

@@ -1,0 +1,543 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "profession_id": "1",
+      "profession": {
+        "id": "1",
+        "name": "エンジニア",
+        "ranks": [
+          {
+            "id": "1",
+            "profession_id": "1",
+            "code": "E",
+            "name": "string",
+            "description": "string",
+            "previous_rank_id": "string",
+            "sort_order": 0,
+            "created_at": "2020-09-19T05:45:36.158Z",
+            "updated_at": "2020-09-19T05:45:36.158Z",
+            "deleted_at": "2020-09-19T05:45:36.158Z"
+          }
+        ],
+        "created_at": "2020-09-19T05:45:36.158Z",
+        "updated_at": "2020-09-19T05:45:36.158Z",
+        "deleted_at": "2020-09-19T05:45:36.158Z"
+      },
+      "name": "エンジニアスキル",
+      "sort_order": 1,
+      "indicatorSubcategories": [
+        {
+          "id": "1",
+          "indicator_category_id": "1",
+          "name": "開発言語",
+          "sort_order": 1,
+          "indicatorSubcategoryRanks": [
+            {
+              "id": "1",
+              "indicator_subcategory_id": "1",
+              "rank_id": "1",
+              "rank": {
+                "id": "1",
+                "profession_id": "",
+                "code": "NC",
+                "name": "New Comer",
+                "description": "新人ランクの説明",
+                "previous_rank_id": "",
+                "sort_order": 0,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "約200文字の説明文開発言語における新人ランクの説明開発言語における新人ランクの説開発言語における新人ランクの説明開発言語における新人ランクの説明明開発言語における新人ランクの説明開発言語における新人ランクの説開発言語における新人ランクの説明開発言語における新人ランクの説明明開発言語における新人ランクの説明開発言語における新人ランクの説開発言語における新人ランクの説明開発言語における新人ランクの説明",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            },
+            {
+              "id": "2",
+              "indicator_subcategory_id": "1",
+              "rank_id": "2",
+              "rank": {
+                "id": "1",
+                "profession_id": "",
+                "code": "E",
+                "name": "Engineer",
+                "description": "エンジニアランクの説明",
+                "previous_rank_id": "NC",
+                "sort_order": 1,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "開発言語におけるエンジニアランクの説明",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            },
+            {
+              "id": "3",
+              "indicator_subcategory_id": "1",
+              "rank_id": "3",
+              "rank": {
+                "id": "3",
+                "profession_id": "",
+                "code": "LE",
+                "name": "Lead Engineer",
+                "description": "開発言語におけるリードエンジニアランクの説明",
+                "previous_rank_id": "E",
+                "sort_order": 2,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "開発言語におけるリードエンジニアランクの説明",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            },
+            {
+              "id": "4",
+              "indicator_subcategory_id": "1",
+              "rank_id": "4",
+              "rank": {
+                "id": "4",
+                "profession_id": "1",
+                "code": "SP",
+                "name": "Specialist",
+                "description": "スペシャリストランクの説明",
+                "previous_rank_id": "LE",
+                "sort_order": 3,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "開発言語におけるスペシャリストランクの説明",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            },
+            {
+              "id": "5",
+              "indicator_subcategory_id": "1",
+              "rank_id": "5",
+              "rank": {
+                "id": "1",
+                "profession_id": "1",
+                "code": "SSP",
+                "name": "Senior Specialist",
+                "description": "シニアスペシャリストの説明",
+                "previous_rank_id": "SP",
+                "sort_order": 4,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "開発言語におけるシニアスペシャリストランクの説明",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            },
+            {
+              "id": "6",
+              "indicator_subcategory_id": "1",
+              "rank_id": "6",
+              "rank": {
+                "id": "6",
+                "profession_id": "1",
+                "code": "EXPT",
+                "name": "Expert",
+                "description": "シニアスペシャリストの説明",
+                "previous_rank_id": "SSP",
+                "sort_order": 5,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "開発言語におけるエキスパートランクの説明",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            }
+          ],
+          "created_at": "2020-09-19T05:45:36.158Z",
+          "updated_at": "2020-09-19T05:45:36.158Z"
+        },
+        {
+          "id": "2",
+          "indicator_category_id": "1",
+          "name": "開発スピード",
+          "sort_order": 2,
+          "indicatorSubcategoryRanks": [
+            {
+              "id": "1",
+              "indicator_subcategory_id": "2",
+              "rank_id": "1",
+              "rank": {
+                "id": "1",
+                "profession_id": "",
+                "code": "NC",
+                "name": "New Comer",
+                "description": "新人ランクの説明",
+                "previous_rank_id": "",
+                "sort_order": 10,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "開発スピードにおける新人ランクの説明",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            },
+            {
+              "id": "2",
+              "indicator_subcategory_id": "1",
+              "rank_id": "2",
+              "rank": {
+                "id": "1",
+                "profession_id": "",
+                "code": "E",
+                "name": "Engineer",
+                "description": "エンジニアランクの説明",
+                "previous_rank_id": "NC",
+                "sort_order": 11,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "開発スピードにおけるエンジニアランクの説明",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            },
+            {
+              "id": "3",
+              "indicator_subcategory_id": "1",
+              "rank_id": "3",
+              "rank": {
+                "id": "3",
+                "profession_id": "",
+                "code": "LE",
+                "name": "Lead Engineer",
+                "description": "リードエンジニアランクの説明",
+                "previous_rank_id": "E",
+                "sort_order": 12,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "開発スピードにおけるリードエンジニアランクの説明",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            },
+            {
+              "id": "4",
+              "indicator_subcategory_id": "1",
+              "rank_id": "4",
+              "rank": {
+                "id": "4",
+                "profession_id": "1",
+                "code": "SP",
+                "name": "Specialist",
+                "description": "スペシャリストランクの説明",
+                "previous_rank_id": "LE",
+                "sort_order": 13,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "開発スピードにおけるスペシャリストランクの説明",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            },
+            {
+              "id": "5",
+              "indicator_subcategory_id": "1",
+              "rank_id": "5",
+              "rank": {
+                "id": "1",
+                "profession_id": "1",
+                "code": "SSP",
+                "name": "Senior Specialist",
+                "description": "シニアスペシャリストの説明",
+                "previous_rank_id": "SP",
+                "sort_order": 14,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "開発スピードにおけるシニアスペシャリストランクの説明",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            },
+            {
+              "id": "6",
+              "indicator_subcategory_id": "1",
+              "rank_id": "6",
+              "rank": {
+                "id": "6",
+                "profession_id": "1",
+                "code": "EXPT",
+                "name": "Expert",
+                "description": "シニアスペシャリストの説明",
+                "previous_rank_id": "SSP",
+                "sort_order": 16,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "開発スピードにおけるエキスパートランクの説明",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            }
+          ],
+          "created_at": "2020-09-19T05:45:36.158Z",
+          "updated_at": "2020-09-19T05:45:36.158Z"
+        }
+      ],
+      "created_at": "2020-09-19T05:45:36.158Z",
+      "updated_at": "2020-09-19T05:45:36.158Z"
+    },
+
+    {
+      "id": "2",
+      "profession_id": "1",
+      "profession": {
+        "id": "1",
+        "name": "エンジニア",
+        "ranks": [
+          {
+            "id": "3",
+            "profession_id": "1",
+            "code": "A",
+            "name": "string",
+            "description": "string",
+            "previous_rank_id": "string",
+            "sort_order": 0,
+            "created_at": "2020-09-19T05:45:36.158Z",
+            "updated_at": "2020-09-19T05:45:36.158Z",
+            "deleted_at": "2020-09-19T05:45:36.158Z"
+          }
+        ],
+        "created_at": "2020-09-19T05:45:36.158Z",
+        "updated_at": "2020-09-19T05:45:36.158Z",
+        "deleted_at": "2020-09-19T05:45:36.158Z"
+      },
+      "name": "ビジネススキル",
+      "sort_order": 2,
+      "indicatorSubcategories": [
+        {
+          "id": "10",
+          "indicator_category_id": "1",
+          "name": "勤怠",
+          "sort_order": 1,
+          "indicatorSubcategoryRanks": [
+            {
+              "id": "1",
+              "indicator_subcategory_id": "3",
+              "rank_id": "1",
+              "rank": {
+                "id": "1",
+                "profession_id": "",
+                "code": "NC",
+                "name": "New Comer",
+                "description": "新人の説明",
+                "previous_rank_id": "",
+                "sort_order": 21,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "string",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            },
+            {
+              "id": "2",
+              "indicator_subcategory_id": "3",
+              "rank_id": "2",
+              "rank": {
+                "id": "1",
+                "profession_id": "",
+                "code": "E",
+                "name": "Engineer",
+                "description": "エンジニアランクの説明",
+                "previous_rank_id": "NC",
+                "sort_order": 22,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "開発言語のエンジニアランクの説明",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            }
+          ],
+          "created_at": "2020-09-19T05:45:36.158Z",
+          "updated_at": "2020-09-19T05:45:36.158Z"
+        }
+      ],
+      "created_at": "2020-09-19T05:45:36.158Z",
+      "updated_at": "2020-09-19T05:45:36.158Z"
+    },
+    {
+      "id": "15",
+      "profession_id": "2",
+      "profession": {
+        "id": "2",
+        "name": "コンサルタント",
+        "ranks": [
+          {
+            "id": "1",
+            "profession_id": "1",
+            "code": "A",
+            "name": "string",
+            "description": "string",
+            "previous_rank_id": "string",
+            "sort_order": 0,
+            "created_at": "2020-09-19T05:45:36.158Z",
+            "updated_at": "2020-09-19T05:45:36.158Z",
+            "deleted_at": "2020-09-19T05:45:36.158Z"
+          }
+        ],
+        "created_at": "2020-09-19T05:45:36.158Z",
+        "updated_at": "2020-09-19T05:45:36.158Z",
+        "deleted_at": "2020-09-19T05:45:36.158Z"
+      },
+      "name": "コンサルタントスキル",
+      "sort_order": 3,
+      "indicatorSubcategories": [
+        {
+          "id": "30",
+          "indicator_category_id": "1",
+          "name": "ドキュメント作成",
+          "sort_order": 1,
+          "indicatorSubcategoryRanks": [
+            {
+              "id": "1",
+              "indicator_subcategory_id": "1",
+              "rank_id": "1",
+              "rank": {
+                "id": "1",
+                "profession_id": "",
+                "code": "NC",
+                "name": "New Comer",
+                "description": "新人の説明",
+                "previous_rank_id": "",
+                "sort_order": 0,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "ドキュメント作成における新人ランクの説明",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            },
+            {
+              "id": "2",
+              "indicator_subcategory_id": "1",
+              "rank_id": "1",
+              "rank": {
+                "id": "1",
+                "profession_id": "",
+                "code": "A",
+                "name": "Analyst",
+                "description": "アナリストランクの説明",
+                "previous_rank_id": "NC",
+                "sort_order": 1,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "ドキュメント作成におけるアナリストランクの説明",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            }
+          ],
+          "created_at": "2020-09-19T05:45:36.158Z",
+          "updated_at": "2020-09-19T05:45:36.158Z"
+        },
+        {
+          "id": "31",
+          "indicator_category_id": "1",
+          "name": "コミュニケーション能力",
+          "sort_order": 2,
+          "indicatorSubcategoryRanks": [
+            {
+              "id": "1",
+              "indicator_subcategory_id": "1",
+              "rank_id": "1",
+              "rank": {
+                "id": "1",
+                "profession_id": "",
+                "code": "NC",
+                "name": "New Comer",
+                "description": "新人の説明",
+                "previous_rank_id": "",
+                "sort_order": 0,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            },
+            {
+              "id": "2",
+              "indicator_subcategory_id": "1",
+              "rank_id": "1",
+              "rank": {
+                "id": "1",
+                "profession_id": "",
+                "code": "A",
+                "name": "Analyst",
+                "description": "アナリストランクの説明",
+                "previous_rank_id": "NC",
+                "sort_order": 1,
+                "created_at": "2020-09-19T05:45:36.158Z",
+                "updated_at": "2020-09-19T05:45:36.158Z",
+                "deleted_at": "2020-09-19T05:45:36.158Z"
+              },
+              "description": "",
+              "created_at": "2020-09-19T05:45:36.158Z",
+              "updated_at": "2020-09-19T05:45:36.158Z"
+            }
+          ],
+          "created_at": "2020-09-19T05:45:36.158Z",
+          "updated_at": "2020-09-19T05:45:36.158Z"
+        }
+      ],
+      "created_at": "2020-09-19T05:45:36.158Z",
+      "updated_at": "2020-09-19T05:45:36.158Z"
+    },
+    {
+      "id": "4",
+      "profession_id": "20",
+      "profession": {
+        "id": "2",
+        "name": "コンサルタント",
+        "ranks": [
+          {
+            "id": "1",
+            "profession_id": "1",
+            "code": "A",
+            "name": "string",
+            "description": "string",
+            "previous_rank_id": "string",
+            "sort_order": 0,
+            "created_at": "2020-09-19T05:45:36.158Z",
+            "updated_at": "2020-09-19T05:45:36.158Z",
+            "deleted_at": "2020-09-19T05:45:36.158Z"
+          }
+        ],
+        "created_at": "2020-09-19T05:45:36.158Z",
+        "updated_at": "2020-09-19T05:45:36.158Z",
+        "deleted_at": "2020-09-19T05:45:36.158Z"
+      },
+      "name": "ビジネススキル",
+      "sort_order": 3,
+      "indicatorSubcategories": [],
+      "created_at": "2020-09-19T05:45:36.158Z",
+      "updated_at": "2020-09-19T05:45:36.158Z"
+    }
+  ],
+  "page": "string",
+  "limit": "string",
+  "offset": "string",
+  "total_page": "string",
+  "total_count": "string"
+}

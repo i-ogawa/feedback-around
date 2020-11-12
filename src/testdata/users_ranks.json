@@ -1,0 +1,114 @@
+{
+  "items": [
+    {
+      "id": "0",
+      "profession_id": "",
+      "profession": {
+        "id": "",
+        "name": "",
+        "created_at": "",
+        "updated_at": "",
+        "deleted_at": ""
+      },
+      "code": "NC",
+      "name": "New Comer",
+      "description": "NCの説明",
+      "previous_rank_id": "",
+      "previous_rank_code": "",
+      "previous_rank_name": "",
+      "sort_order": 0,
+      "created_at": "2020-09-17T01:33:48.709Z",
+      "updated_at": "2020-09-17T01:33:48.709Z",
+      "deleted_at": "2020-09-17T01:33:48.709Z"
+    },
+    {
+      "id": "1",
+      "profession_id": "1",
+      "profession": {
+        "id": "1",
+        "name": "エンジニア",
+        "created_at": "2020-09-17T02:20:15.589Z",
+        "updated_at": "2020-09-17T02:20:15.589Z",
+        "deleted_at": "2020-09-17T02:20:15.589Z"
+      },
+      "code": "E",
+      "name": "Engineer",
+      "description": "Eランクの説明",
+      "previous_rank_id": "0",
+      "previous_rank_code": "NC",
+      "previous_rank_name": "New Comer",
+      "sort_order": 0,
+      "created_at": "2020-09-17T01:33:48.709Z",
+      "updated_at": "2020-09-17T01:33:48.709Z",
+      "deleted_at": "2020-09-17T01:33:48.709Z"
+    },
+    {
+      "id": "2",
+      "profession_id": "1",
+      "profession": {
+        "id": "1",
+        "name": "エンジニア",
+        "created_at": "2020-09-17T02:20:15.589Z",
+        "updated_at": "2020-09-17T02:20:15.589Z",
+        "deleted_at": "2020-09-17T02:20:15.589Z"
+      },
+      "code": "LE",
+      "name": "Lead Engineer",
+      "description": "LEランクの説明",
+      "previous_rank_id": "1",
+      "previous_rank_code": "E",
+      "previous_rank_name": "Engineer",
+      "sort_order": 0,
+      "created_at": "2020-09-17T01:33:48.709Z",
+      "updated_at": "2020-09-17T01:33:48.709Z",
+      "deleted_at": "2020-09-17T01:33:48.709Z"
+    },
+    {
+      "id": "3",
+      "profession_id": "2",
+      "profession": {
+        "id": "2",
+        "name": "コンサルタント",
+        "created_at": "2020-09-17T02:20:15.589Z",
+        "updated_at": "2020-09-17T02:20:15.589Z",
+        "deleted_at": "2020-09-17T02:20:15.589Z"
+      },
+      "code": "A",
+      "name": "Analyst",
+      "description": "Aランクの説明",
+      "previous_rank_id": "0",
+      "previous_rank_code": "NC",
+      "previous_rank_name": "New Comer",
+      "sort_order": 0,
+      "created_at": "2020-09-17T01:33:48.709Z",
+      "updated_at": "2020-09-17T01:33:48.709Z",
+      "deleted_at": "2020-09-17T01:33:48.709Z"
+    },
+    {
+      "id": "4",
+      "profession_id": "2",
+      "profession": {
+        "id": "2",
+        "name": "コンサルタント",
+        "created_at": "2020-09-17T02:20:15.589Z",
+        "updated_at": "2020-09-17T02:20:15.589Z",
+        "deleted_at": "2020-09-17T02:20:15.589Z"
+      },
+      "code": "C",
+      "name": "Consultant",
+      "description": "Cランクの説明",
+      "previous_rank_id": "A",
+      "previous_rank_code": "3",
+      "previous_rank_name": "Analyst",
+      "sort_order": 0,
+      "created_at": "2020-09-17T01:33:48.709Z",
+      "updated_at": "2020-09-17T01:33:48.709Z",
+      "deleted_at": "2020-09-17T01:33:48.709Z"
+    }
+  ],
+  "page": "string",
+  "limit": "string",
+  "offset": "string",
+  "total_page": "string",
+  "total_count": "string"
+}

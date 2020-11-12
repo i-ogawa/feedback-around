@@ -1,0 +1,27 @@
+name: Deploy to Firebase
+
+on:
+  push:
+    branches: [develop]
+
+jobs:
+  deploy:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Create .env file
+        run: mkdir ./env;echo "${{ secrets.ENV }}" > ./env/.env.dev
+        # ↑ Secrets に定義した「ENV」の文字列の内容で「.env.dev」というファイルを作成する
+        # 下記の「env:」に定義してしまうと echo の結果が「***」となってしまうので、直書きする必要がある
+      - name: Install dependencies
+        run: npm install
+      - name: Build app
+        run: npm run build:dev
+      - name: Deploy # https://github.com/marketplace/actions/github-action-for-firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+    env:
+      FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

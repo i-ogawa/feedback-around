@@ -1,0 +1,8 @@
+{
+  "items": [],
+  "page": "string",
+  "limit": "string",
+  "offset": "string",
+  "total_page": "string",
+  "total_count": "string"
+}

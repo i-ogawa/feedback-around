@@ -1,0 +1,21 @@
+module.exports = {
+  root: true,
+  env: {
+    browser: true,
+    node: true,
+  },
+  parserOptions: {},
+  extends: [
+    '@nuxtjs/eslint-config',
+    'plugin:nuxt/recommended',
+    'plugin:prettier/recommended',
+    'prettier',
+    'prettier/vue',
+  ],
+  plugins: ['vue'],
+  rules: {
+    'vue/html-closing-bracket-newline': 'off',
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+  },
+}
